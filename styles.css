@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #0047ab; /* Yonsei University Royal Blue */
+  --secondary-color: #f0f0f0;
+  --font-color: #333;
+  --button-color: #ffffff;
+  --button-hover-color: #e6e6e6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--button-color);
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+  color: var(--primary-color);
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#result {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.major {
+  text-align: left;
+}
+
+.button_building, .button_room, .button_find, .major {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  border: none;
+  border-radius:500px;
+  padding: 5px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
